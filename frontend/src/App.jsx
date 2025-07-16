@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import MarqueeDivider from "./components/MarqueeDivider";
 import ServicesSection from "./components/ServicesSection";
 import Footer from "./components/Footer";
+import BackToTopButton from "./components/BackToTopButton";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <MarqueeDivider />
       <ServicesSection />
       <Footer />
+      <BackToTopButton />
     </>
   );
 }

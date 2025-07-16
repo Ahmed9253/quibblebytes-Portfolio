@@ -131,7 +131,7 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="text-center py-4 text-sm bg-black text-white border-t border-gray-800">
-        Copyright © 2024 QuibbleByte All rights reserved
+        Copyright © 2025 QuibbleByte All rights reserved
       </div>
     </footer>
   );
