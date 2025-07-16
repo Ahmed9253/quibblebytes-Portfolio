@@ -29,15 +29,15 @@ export default function Footer() {
 
             <p className="mt-4 font-bold text-sm text-white">FOLLOW US</p>
             <div className="flex gap-3 mt-2">
-              <FaFacebookF className="text-[#32fa5b] hover:scale-110 transition" />
-              <FaTwitter className="text-[#32fa5b] hover:scale-110 transition" />
-              <FaInstagram className="text-[#32fa5b] hover:scale-110 transition" />
-              <FaLinkedinIn className="text-[#32fa5b] hover:scale-110 transition" />
-              <FaWhatsapp className="text-[#32fa5b] hover:scale-110 transition" />
+              <FaFacebookF className="text-[#32fa5b] hover:scale-110 transition cursor-pointer" />
+              <FaTwitter className="text-[#32fa5b] hover:scale-110 transition cursor-pointer" />
+              <FaInstagram className="text-[#32fa5b] hover:scale-110 transition cursor-pointer" />
+              <FaLinkedinIn className="text-[#32fa5b] hover:scale-110 transition cursor-pointer" />
+              <FaWhatsapp className="text-[#32fa5b] hover:scale-110 transition cursor-pointer" />
             </div>
           </div>
 
-          {/* Quick Links */}
+          {/* links */}
           <div>
             <h3 className="font-bold mb-3">QuibbleByte</h3>
             <ul className="space-y-2 text-sm">
@@ -94,7 +94,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact Info */}
+          {/* contact information */}
           <div>
             <h3 className="font-bold mb-3">Contact No</h3>
             <ul className="space-y-2 text-sm">
@@ -105,7 +105,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Newsletter */}
+          {/* newletter box */}
           <div className="max-w-full flex flex-col items-center ">
             <h3 className="font-bold mb-4 text-white text-lg">
               READY TO GET STARTED?
