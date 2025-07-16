@@ -202,7 +202,7 @@ export default function ServicesSection() {
                       </span>
                     ))}
                   </div>
-                  <button className="bg-[#32fa5b] text-black font-semibold px-6 py-2 rounded-lg hover:bg-[#28c94b] transition shadow-md ml-4">
+                  <button className="bg-green-500 hover:bg-green-600  text-black font-semibold px-6 py-2 rounded-lg transition shadow-md ml-4 cursor-pointer">
                     Read More
                   </button>
                 </div>
