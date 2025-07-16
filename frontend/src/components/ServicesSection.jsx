@@ -1,40 +1,25 @@
 import {
   FaPalette,
-  FaServer,
   FaMobileAlt,
   FaBullhorn,
   FaVideo,
   FaShieldAlt,
   FaGlobe,
-  FaCloud,
-  FaWordpress,
-  FaNode,
   FaNodeJs,
   FaGoogle,
   FaGoogleDrive,
 } from "react-icons/fa";
-import { FiMonitor } from "react-icons/fi";
 import {
-  SiSlack,
   SiSketch,
-  SiAdobexd,
-  SiPhp,
   SiMysql,
   SiLaravel,
-  SiGoogleanalytics,
   SiLinkedin,
-  SiYoutubemusic,
   SiFacebook,
   SiAdobeaftereffects,
   SiAdobeillustrator,
-  SiGoogleads,
-  SiFig,
   SiFigma,
   SiSwift,
   SiFlutter,
-  SiAndroidstudio,
-  SiShopify,
-  SiHubspot,
   SiTiktok,
   SiYoutube,
   SiReact,
@@ -48,59 +33,119 @@ import {
   SiKalilinux,
   SiWireshark,
   SiHostinger,
-  SiLazarus,
 } from "react-icons/si";
 import { MdOutlineDesignServices } from "react-icons/md";
 import { GrSystem } from "react-icons/gr";
 import "react-icons/vsc";
 import { VscAzure } from "react-icons/vsc";
+import UiUX from "../assets/UI-Ux.svg";
+import WebDevIcon from "../assets/Web Development.svg";
+import MobileApps from "../assets/Mobile Apps.svg";
+import Apis from "../assets/CMS.svg";
+import DM from "../assets/Digital Marketing.svg";
+import Adds from "../assets/Meta Google Ads.svg";
+import Video from "../assets/Video & Animation.svg";
+import CyberSecurity from "../assets/Cyber Security.svg";
+import Hosting from "../assets/Domain & Hosting.svg";
 
 const services = [
   {
     title: "UI/UX Design",
-    icon: <FaPalette className="text-6xl text-[#32fa5b] mb-2 mt-2 z-20" />,
+    icon: (
+      <img
+        src={UiUX}
+        className="w-16 h-16 mb-2 mt-2 z-20 fill-[#32fa5b]"
+        alt=""
+      />
+    ),
     tools: [<SiFigma />, <SiSketch />, <SiAdobeillustrator />],
   },
   {
     title: "Web Development",
-    icon: <FiMonitor className="text-6xl text-[#32fa5b] mb-6 z-20" />,
+    icon: (
+      <img
+        src={WebDevIcon}
+        className="w-16 h-16 mb-2 mt-2 z-20 fill-[#32fa5b]"
+        alt=""
+      />
+    ),
     tools: [<SiReact />, <SiWordpress />, <SiLaravel />],
   },
   {
     title: "Mobile Apps",
-    icon: <FaMobileAlt className="text-6xl text-[#32fa5b] mb-6 z-20" />,
+    icon: (
+      <img
+        src={MobileApps}
+        className="w-16 h-16 mb-2 mt-2 z-20 fill-[#32fa5b]"
+        alt=""
+      />
+    ),
     tools: [<SiSwift />, <SiFlutter />, <SiKotlin />],
   },
   {
-    title: "Apis And Databses",
-    icon: <GrSystem className="text-6xl text-[#32fa5b] mb-6 z-20" />,
+    title: "Costom CMS",
+    icon: (
+      <img
+        src={Apis}
+        className="w-16 h-16 mb-2 mt-2 z-20 fill-[#32fa5b]"
+        alt=""
+      />
+    ),
     tools: [<FaNodeJs />, <SiDjango />, <SiMysql />],
   },
   {
     title: "Digital Marketing/SEO",
-    icon: <FaBullhorn className="text-6xl text-[#32fa5b] mb-6 z-20" />,
+    icon: (
+      <img
+        src={DM}
+        className="w-16 h-16 mb-2 mt-2 z-20 fill-[#32fa5b]"
+        alt=""
+      />
+    ),
     tools: [<SiMeta />, <FaGoogle />, <SiLinkedin />],
   },
   {
     title: "Google & Meta Ads",
     icon: (
-      <MdOutlineDesignServices className="text-6xl text-[#32fa5b] mb-6 z-20" />
+      <img
+        src={Adds}
+        className="w-16 h-16 mb-2 mt-2 z-20 fill-[#32fa5b]"
+        alt=""
+      />
     ),
     tools: [<SiFacebook />, <SiYoutube />, <SiTiktok />],
   },
   {
     title: "Video & Animation",
-    icon: <FaVideo className="text-6xl text-[#32fa5b] mb-6 z-20" />,
+    icon: (
+      <img
+        src={Video}
+        className="w-16 h-16 mb-2 mt-2 z-20 fill-[#32fa5b]"
+        alt=""
+      />
+    ),
     tools: [<SiAdobeaftereffects />, <SiBlender />, <SiAdobepremierepro />],
   },
   {
     title: "Cyber Security",
-    icon: <FaShieldAlt className="text-6xl text-[#32fa5b] mb-6 z-20" />,
+    icon: (
+      <img
+        src={CyberSecurity}
+        className="w-16 h-16 mb-2 mt-2 z-20 fill-[#32fa5b]"
+        alt=""
+      />
+    ),
     tools: [<SiSplunk />, <SiKalilinux />, <SiWireshark />],
   },
   {
     title: "Domain & Hosting",
-    icon: <FaGlobe className="text-6xl text-[#32fa5b] mb-6 z-20" />,
+    icon: (
+      <img
+        src={Hosting}
+        className="w-16 h-16 mb-2 mt-2 z-20 fill-[#32fa5b]"
+        alt=""
+      />
+    ),
     tools: [<SiHostinger />, <VscAzure />, <FaGoogleDrive />],
   },
 ];
