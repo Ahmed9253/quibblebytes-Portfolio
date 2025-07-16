@@ -1,54 +1,56 @@
-import { FaPalette, FaServer, FaMobileAlt, FaBullhorn, FaVideo, FaShieldAlt, FaGlobe, FaCloud } from 'react-icons/fa';
+import { FaPalette, FaServer, FaMobileAlt, FaBullhorn, FaVideo, FaShieldAlt, FaGlobe, FaCloud, FaWordpress, FaNode, FaNodeJs, FaGoogle, FaGoogleDrive } from 'react-icons/fa';
 import { FiMonitor } from 'react-icons/fi';
-import { SiSlack, SiSketch, SiAdobexd, SiPhp, SiMysql, SiLaravel, SiGoogleanalytics, SiLinkedin, SiYoutubemusic, SiFacebook, SiAdobeaftereffects, SiAdobeillustrator, SiGoogleads } from 'react-icons/si';
+import { SiSlack, SiSketch, SiAdobexd, SiPhp, SiMysql, SiLaravel, SiGoogleanalytics, SiLinkedin, SiYoutubemusic, SiFacebook, SiAdobeaftereffects, SiAdobeillustrator, SiGoogleads, SiFig, SiFigma, SiSwift, SiFlutter, SiAndroidstudio, SiShopify, SiHubspot, SiTiktok, SiYoutube, SiReact, SiWordpress, SiDjango, SiKotlin, SiMeta, SiBlender, SiAdobepremierepro, SiSplunk, SiKalilinux, SiWireshark, SiHostinger, SiLazarus } from 'react-icons/si';
 import { MdOutlineDesignServices } from 'react-icons/md';
 import { GrSystem } from 'react-icons/gr';
+import "react-icons/vsc"
+import { VscAzure } from 'react-icons/vsc';
 
 const services = [
   {
     title: 'UI/UX Design',
     icon: <FaPalette className="text-6xl text-[#32fa5b] mb-2 mt-2 z-20" />,
-    tools: [<SiSlack />, <SiSketch />, <SiAdobexd />]
+    tools: [<SiFigma/>, <SiSketch />, <SiAdobeillustrator />]
   },
   {
     title: 'Web Development',
     icon: <FiMonitor className="text-6xl text-[#32fa5b] mb-6 z-20" />,
-    tools: [<SiPhp />, <SiMysql />, <SiLaravel />]
+    tools: [<SiReact />, <SiWordpress />, <SiLaravel />]
   },
   {
     title: 'Mobile Apps',
     icon: <FaMobileAlt className="text-6xl text-[#32fa5b] mb-6 z-20" />,
-    tools: [<SiSlack />, <SiSketch />, <SiAdobexd />]
+    tools: [<SiSwift />, <SiFlutter />, <SiKotlin />]
   },
   {
-    title: 'Custom CMS/CRM',
+    title: 'Apis And Databses',
     icon: <GrSystem className="text-6xl text-[#32fa5b] mb-6 z-20" />,
-    tools: [<FaCloud />, <SiPhp />, <SiLaravel />]
+    tools: [<FaNodeJs />, <SiDjango />, <SiMysql />]
   },
   {
     title: 'Digital Marketing/SEO',
     icon: <FaBullhorn className="text-6xl text-[#32fa5b] mb-6 z-20" />,
-    tools: [<SiGoogleanalytics />, <SiGoogleads />, <SiLinkedin />]
+    tools: [<SiMeta />, <FaGoogle />, <SiLinkedin />]
   },
   {
     title: 'Google & Meta Ads',
     icon: <MdOutlineDesignServices className="text-6xl text-[#32fa5b] mb-6 z-20" />,
-    tools: [<SiFacebook />, <SiYoutubemusic />, <SiGoogleads />]
+    tools: [<SiFacebook />, <SiYoutube />, <SiTiktok />]
   },
   {
     title: 'Video & Animation',
     icon: <FaVideo className="text-6xl text-[#32fa5b] mb-6 z-20" />,
-    tools: [<SiAdobeaftereffects />, <SiAdobexd />, <SiAdobeillustrator />]
+    tools: [<SiAdobeaftereffects />, <SiBlender />, <SiAdobepremierepro />]
   },
   {
     title: 'Cyber Security',
     icon: <FaShieldAlt className="text-6xl text-[#32fa5b] mb-6 z-20" />,
-    tools: [<FaCloud />, <SiSlack />, <SiAdobexd />]
+    tools: [<SiSplunk />, <SiKalilinux />, <SiWireshark />]
   },
   {
     title: 'Domain & Hosting',
     icon: <FaGlobe className="text-6xl text-[#32fa5b] mb-6 z-20" />,
-    tools: [<SiGoogleanalytics />, <SiPhp />, <SiMysql />]
+    tools: [<SiHostinger />, <VscAzure />, <FaGoogleDrive />]
   }
 ];
 
