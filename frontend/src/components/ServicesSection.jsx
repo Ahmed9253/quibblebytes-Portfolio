@@ -68,7 +68,7 @@ export default function ServicesSection() {
         <div className="flex flex-wrap justify-center gap-6">
           {services.map((service, index) => (
             <div key={index} className="max-w-sm w-full">
-              <div className="relative group bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-2xl rounded-md border border-[#32fa5b]/40 shadow-2xl flex flex-col items-center pt-12 pb-6 px-8 min-h-[300px] overflow-hidden" onMouseMove={(e) => {
+              <div className="relative group bg-transparent backdrop-blur-2xl rounded-md border border-[#32fa5b]/40 shadow-2xl flex flex-col items-center pt-12 pb-6 px-8 min-h-[300px] overflow-hidden" onMouseMove={(e) => {
                   const box = e.currentTarget;
                   const rect = box.getBoundingClientRect();
                   const x = e.clientX - rect.left;
@@ -81,11 +81,6 @@ export default function ServicesSection() {
                   transition: 'opacity 0.2s ease',
                   opacity: 1
                 }}></div>
-
-                
-
-                
-
                 {service.icon}
                 <h4 className="text-white text-2xl font-bold mb-4 text-center z-20">{service.title}</h4>
 
